@@ -1,0 +1,137 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+.mario-block {
+    display: inline-block;
+    position: relative;
+    margin: 80px auto;
+    width: 16em;
+    height: 16em;
+}
+
+#wahoo {
+    outline: none;
+}
+
+#wahoo:active + .mario-block {
+    animation: wahooMario 0.8s ease-in-out 1;
+}
+
+@keyframes wahooMario {
+    0% { left: 0; bottom: 0;}
+    30% { left: 200px; bottom: 200px; transform: rotate(-25deg)}
+    80% { left: 400px; bottom: 0px;}
+    100% { left: 0; bottom: 0; }
+}
+
+.mario {
+    display: block;
+    width: 1em;
+    height: 1em;
+    background-color: #e7eef1;
+    box-shadow: 0em 0em #bcd9e6,
+                1em 0em #e7eef1,
+                2em 0em #e7eef1,
+                3em 0em #e7eef1,
+                4em 0em #e7eef1,
+                5em 0em #e7eef1,
+                6em 0em #e7eef1,
+                7em 0em #e7eef1,
+                8em 0em #e7eef1,
+                9em 0em #e7eef1,
+                10em 0em #e7eef1,
+                11em 0em #e7eef1,
+                12em 0em #e7eef1,
+                13em 0em #e7eef1,
+                14em 0em #e7eef1,
+                15em 0em #e7eef1,
+
+                0em 1em #e7eef1,
+                1em 1em #e7eef1,
+                2em 1em #e7eef1,
+                3em 1em #e7eef1,
+                4em 1em #e7eef1,
+                5em 1em red,
+                6em 1em red,
+                7em 1em red,
+                8em 1em red,
+                9em 1em red,
+                10em 1em #e7eef1,
+                11em 1em #e7eef1,
+                12em 1em #ffc966,
+                13em 1em #ffc966,
+                14em 1em #ffc966,
+                15em 1em #e7eef1,
+
+                0em 2em #e7eef1,
+                1em 2em #e7eef1,
+                2em 2em #e7eef1,
+                3em 2em #e7eef1,
+                4em 2em red,
+                5em 2em red,
+                6em 2em red,
+                7em 2em red,
+                8em 2em red,
+                9em 2em red,
+                10em 2em red,
+                11em 2em red,
+                12em 2em red,
+                13em 2em #ffc966,
+                14em 2em #ffc966,
+                15em 2em #e7eef1,
+
+                0em 3em #e7eef1,
+                1em 3em #e7eef1,
+                2em 3em #e7eef1,
+                3em 3em #e7eef1,
+                4em 3em brown,
+                5em 3em brown,
+                6em 3em brown,
+                7em 3em #ffc966,
+                8em 3em #ffc966,
+                9em 3em #000,
+                10em 3em #ffc966,
+                11em 3em #e7eef1,
+                12em 3em red,
+                13em 3em red,
+                14em 3em red,
+                15em 3em #e7eef1,
+
+                0em 4em #e7eef1,
+                1em 4em #e7eef1,
+                2em 4em #e7eef1,
+                3em 4em brown,
+                4em 4em #ffc966,
+                5em 4em brown,
+                6em 4em #ffc966,
+                7em 4em #ffc966,
+                8em 4em #ffc966,
+                9em 4em #000,
+                10em 4em #ffc966,
+                11em 4em #ffc966,
+                12em 4em #ffc966,
+                13em 4em red,
+                14em 4em red,
+                15em 4em #e7eef1,
+
+                0em 5em #e7eef1,
+                1em 5em #e7eef1,
+                2em 5em #e7eef1,
+                3em 5em brown,
+                4em 5em #ffc966,
+                5em 5em brown,
+                6em 5em brown,
+                7em 5em #ffc966,
+                8em 5em #ffc966,
+                9em 5em #ffc966,
+                10em 5em #000,
+                11em 5em #ffc966,
+                12em 5em #ffc966,
+                13em 5em #ffc966,
+                14em 5em red,
+                15em 5em #e7eef1
+                ;
+            }
