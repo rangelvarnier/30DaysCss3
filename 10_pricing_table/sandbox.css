@@ -163,7 +163,7 @@
         margin-left: -5px;
     }
 
-    .pricing-body ul li:nth-child(2n){
+    .pricing-body ul li:nth-child(2n) {
         background-color: #e8e8e8;
     }
 
